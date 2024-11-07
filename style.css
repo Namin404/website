@@ -5,9 +5,11 @@ header {
 
 body {
     background-color: #f2f0ef;
+    white-space: normal;
+    overflow-wrap: break-word;
 }
 
-body section {
+section {
     background-color: #cccbca;
     width: 20%;
     text-align: center;
@@ -19,9 +21,22 @@ body section {
     max-width: 300px;
 }
 
-body section div {
+section div {
     border: solid 2px;
     padding: 10px;
+    container-type: inline-size;
+}
+
+section div > h4 {
+    font-size: 7cqi;
+}
+
+.contactinfo {
+    container-type: inline-size;
+}
+
+.contactinfo > span {
+    font-size: 7cqi;
 }
 
 body section div + div {
