@@ -69,3 +69,16 @@ body section div + div span + span {
     height: 100%;
     border: solid green 2px;
 }
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.about {
+    background-color: #a6a4a4;
+    border: solid green 2px;
+    padding: 10px;
+    text-align: center;
+    white-space: normal;
+}
