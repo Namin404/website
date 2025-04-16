@@ -3,8 +3,35 @@ html{
 }
 
 header {
-    text-align: center;
+    width: 100%;
     font: "FiraCode";
+    content: '';
+    display: table;
+    clear: both;
+    background-color: rgb(192, 181, 181);
+}
+
+.headercontainer {
+    width: 80%;
+}
+
+.name {
+    float: left;
+    padding-left: 10%;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+
 }
 
 body {
