@@ -13,11 +13,21 @@ header {
 
 .headercontainer {
     width: 80%;
+    margin: 0 auto;
+}
+
+.icons {
+    padding: 15px 0;
 }
 
 .name {
     float: left;
-    padding-left: 10%;
+}
+
+a {
+    color: black;
+    cursor: auto;
+    text-decoration: none;
 }
 
 nav {
@@ -31,7 +41,20 @@ nav ul {
 nav li {
     display: inline-block;
     margin-left: 70px;
+}
 
+.social-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
 }
 
 body {
