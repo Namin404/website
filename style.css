@@ -2,13 +2,17 @@ html{
     height: 100%;
 }
 
+/* .firstpage {
+    background-color: #d0cdcc;
+} */
+
 header {
     width: 100%;
     font: "FiraCode";
     content: '';
     display: table;
     clear: both;
-    background-color: rgb(192, 181, 181);
+    /* background-color: rgb(192, 181, 181); */
 }
 
 .headercontainer {
@@ -61,8 +65,8 @@ nav a {
     align-items: center;
 }
 
-body {
-    background-color: #f2f0ef;
+.main {
+    background-color: #e9dfdb;
     white-space: normal;
     overflow-wrap: break-word;
     height: 100%; 
@@ -71,7 +75,7 @@ body {
 }
 
 section {
-    background-color: #cccbca;
+    /* background-color: #cccbca; */
     width: 20%;
     text-align: center;
     white-space: normal;
@@ -155,10 +159,11 @@ body section div + div span + span {
 }
 
 .namindejesus {
-    font-size: 100px;
-    font-family: "Space Mono", monospace;
-    font-weight: 700;
-    font-style: italic;
+    padding-top: 30px;
+    font-family: "Fugaz One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120px;
 }
 
 .about {
@@ -172,9 +177,8 @@ body section div + div span + span {
 }
 
 .aboot {
-    padding: 20px;
-    font-size: 20px;
-    font-family: "Space Mono", monospace;
+    /* font-family: "Fugaz One", sans-serif; */
+    font-weight: 200;
     font-style: normal;
 }
 
@@ -193,7 +197,7 @@ body section div + div span + span {
 }
 
 .travel {
-    font-family: "Space Mono", monospace;
+    /* font-family: "Space Mono", monospace; */
     font-weight: 400;
     font-style: normal;
     padding: 5% 20%;
@@ -219,7 +223,7 @@ body section div + div span + span {
 }
 
 .judas {
-    font-family: "Space Mono", monospace;
+    /* font-family: "Space Mono", monospace; */
     font-weight: 400;
     font-style: normal;
     padding: 5% 20%;
