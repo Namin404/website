@@ -6,6 +6,12 @@ html{
     background-color: #d0cdcc;
 } */
 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 header {
     width: 100%;
     font: "FiraCode";
@@ -66,7 +72,7 @@ nav a {
 }
 
 .main {
-    background-color: #c64f1f;
+    /* background-color: #c64f1f; */
     white-space: normal;
     overflow-wrap: break-word;
     height: 2000px; 
@@ -98,6 +104,9 @@ section div > h4 {
 
 .contactinfo {
     container-type: inline-size;
+    font-family: "DM Serif Display", serif;
+    font-weight: 100;
+    font-style: normal;
 }
 
 .contactinfo > span {
@@ -123,7 +132,7 @@ button {
 
 
 body section div + div {
-    background-color: #a6a4a4;
+    /* background-color: #a6a4a4; */
     /* border: solid red 2px; */
     padding: 10px;
     text-align: center;
@@ -144,18 +153,26 @@ body section div + div span + span {
 }
 
 .leftcolumn {
-    padding-top: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 0px;
     height: 100%;
     /* border: solid green 2px; */
     cursor: auto;
     text-decoration: none;
+    font-family: "DM Serif Display", serif;
+    font-weight: 100;
+    font-style: normal;
+    width: 20%;
 }
 
 .main {
     display: flex;
     flex-direction: row;
-    height: 100%;
-    background-color: #a6a4a4;
+    height: 750px;
+    background-color:   #c2a212;
+    width: 100%;
+    padding-top: 30px;
 }
 
 .namindejesus {
@@ -163,15 +180,17 @@ body section div + div span + span {
     font-family: "Fugaz One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 120px;
+    font-size: 100px;
 }
 
 .about {
     /* border: solid blue 2px; */
-    padding: 30px   ;
+    padding: 100px   ;
     text-align: center;
     white-space: normal;
     width: 80%;
+    margin: 10px;
+    /* padding-right: 200px; */
     /* background-color: #cccbca; */
 
 }
@@ -184,7 +203,7 @@ body section div + div span + span {
 }
 
 .paragraph2 {
-    height: 1000px;
+    height: 800px;
     padding-bottom: 100px;
 }
 
