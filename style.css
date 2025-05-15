@@ -170,7 +170,7 @@ body section div + div span + span {
     display: flex;
     flex-direction: row;
     height: 750px;
-    background-color:   #c2a212;
+    background-color:   #c5a515;
     width: 100%;
     padding-top: 30px;
 }
@@ -216,6 +216,7 @@ body section div + div span + span {
     margin-bottom: 20px;
     padding: 50px;
     margin-top: 0;
+    padding-top: 50px;
 }
 
 .travel {
