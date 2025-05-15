@@ -10,6 +10,13 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    
+}
+
+.body {
+    background: #2A7B9B;
+    background: linear-gradient(180deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 79%, rgba(237, 221, 83, 1) 100%);
+
 }
 
 header {
@@ -24,6 +31,15 @@ header {
 .headercontainer {
     width: 80%;
     margin: 0 auto;
+}
+
+.everythingbutheder {
+    padding: 0 10%;
+
+}
+
+.firstpage {
+    /* padding:0% 10%; */
 }
 
 .icons {
@@ -44,15 +60,15 @@ a {
     text-decoration: none;
 }
 
-nav {
+.icons {
     float: right;
 }
 
-nav ul {
+.list {
     list-style: none;
 }
 
-nav li {
+.pointer {
     display: inline-block;
     margin-left: 70px;
 }
@@ -62,14 +78,18 @@ nav li {
     height: 24px;
     vertical-align: middle;
     margin-right: 5px;
-}
-
-nav a {
     text-decoration: none;
     color: inherit;
     display: flex;
     align-items: center;
 }
+
+/* nav a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+} */
 
 .main {
     /* background-color: #c64f1f; */
@@ -170,7 +190,7 @@ body section div + div span + span {
     display: flex;
     flex-direction: row;
     height: 750px;
-    background-color:   #c5a515;
+    background-color:   #d1ad54;
     width: 100%;
     padding-top: 30px;
 }
@@ -200,11 +220,18 @@ body section div + div span + span {
     font-family: "DM Serif Display", serif;
     font-weight: 100;
     font-style: normal;
+    font-size: 20px;
 }
 
 .paragraph2 {
-    height: 800px;
-    padding-bottom: 100px;
+    height: auto;
+    min-height: 900px;
+    padding: 0% 10%;
+    background-color: white;
+    border: black;
+    border-width: 2px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .paragraphtwotitle {
@@ -227,6 +254,8 @@ body section div + div span + span {
     padding: 5% 20%;
     font-size: 20px;
     text-align: justify;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .education {
